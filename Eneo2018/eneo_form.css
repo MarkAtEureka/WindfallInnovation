@@ -1,4 +1,4 @@
-﻿/* Remove Save For Later in Page 1 */
+/* Remove Save For Later in Page 1 */
 
 #form > div:nth-child(2) > div:nth-child(3) > div > button:nth-child(2){display: none;}
 /* Remove Print in Page 1 */
@@ -76,11 +76,11 @@ width: 60%;
 }
 .mhTitle {
   width: 100%;
-	font-size: 40pt;
-	color: #1b75bb;
-	font-weight: 900;
+	font-size: 40pt !important;
+	color: #1b75bb !important;
+	font-weight: 900 !important;
   text-align: center;
-  margin: 20px 5px 5px 5px;
+  margin: 20px 5px 5px 5px !important;
 }
 /* Headers */
 .chapterHeading {
@@ -159,18 +159,14 @@ width: 60%;
   }
 }
 /* page 3, make scorecard background color different
-
 #htmlblock-0000009b-acc{
   background-color: rgba(27,117,187,0.4);
 } 
 #htmlblock-000000a2-acc {
   background-color: rgba(27,117,187,0.4);
 }
-
-
  */
- #form > div:nth-child(6) > div:nth-child(2) > div:nth-child(7) > div:nth-child(2) > button, #form > div:nth-child(6) > div:nth-child(2) > div:nth-child(10) > div:nth-child(2) > button {
+ #form > div:nth-child(2) > div:nth-child(2) > div:nth-child(22) > div:nth-child(2) > button, #form > div:nth-child(2) > div:nth-child(2) > div:nth-child(26) > div:nth-child(2) > button {
 	background-color: rgba(141,198,64,0.4);
      box-shadow: 1px 1px grey;
 }
-
